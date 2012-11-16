@@ -1,0 +1,26 @@
+# Object files
+*.o
+# Kernel Modules file
+*.ko
+*.cmd
+*.mod
+*.symvers
+*.order
+*.mod.c
+*.mod.o
+*.tmp*
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app

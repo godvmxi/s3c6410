@@ -1,6 +1,17 @@
 # Object files
 *.o
 
+# Kernel Modules file
+*.ko
+*.cmd
+*.mod
+*.symvers
+*.order
+*.mod.c
+*.mod.o
+*.tmp*
+*.tmp_versions
+
 # Libraries
 *.lib
 *.a
@@ -15,3 +26,29 @@
 *.exe
 *.out
 *.app
+
+#tarball
+*.tar.gz
+*.tar.bz2
+*.tar
+
+#tmp file
+*.tmp
+
+
+#images file
+*.tar
+*.ubifs
+*.cpio
+*.ext2
+*.ext3
+*.bin
+#file dir
+*outputs/*
+
+
+
+
+
+
+
