@@ -2,9 +2,7 @@
 /dl
 /.auto.deps
 /.config.cmd
-/.config.old
 /..config.tmp
-/.config
 *.depend
 *.o
 /*.patch
@@ -12,20 +10,4 @@
 *.orig
 *.rej
 *~
-# Object files
-*.o
-
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+/.buildroot-ccache
